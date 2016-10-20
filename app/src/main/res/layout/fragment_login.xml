@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg_color"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+
+    <ImageView
+        android:id="@+id/taxijet_logo_image"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/login_guide_text"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/taxijet_logo"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/login_guide_text"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:maxLines="4"
+        android:minLines="3"
+        android:text="@string/login_welcome_guide"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/login_help_text"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/mobilenumber_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_guide_text"
+        android:background="@drawable/edittext_primary_shape"
+        android:gravity="center"
+        android:hint="شماره موبایل"
+        android:inputType="phone"
+        android:minHeight="45dp"
+        android:textColor="#000000"
+        android:textColorHint="#d0d1e7"
+        android:textSize="18sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobilenumber_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_primary_shape"
+        android:text="@string/login_nextbutton_text"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/mobileauth_bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/splash_esfahan_bg" />
+
+</RelativeLayout>

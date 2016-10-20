@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg_color"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mobileauth_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="#0367be">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="تایید شماره موبایل"
+            android:typeface="monospace"/>
+
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/fragment_placeholder"
+        android:layout_below="@+id/mobileauth_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</RelativeLayout>

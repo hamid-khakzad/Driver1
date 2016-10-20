@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Driver</string>
+    <string name="mobilecheck_text">لطفا شماره موبایل خود را وارد نمایید</string>
+    <string name="login_help">لطفا شماره موبایل خود را وارد نمایید</string>
+    <string name="login_mobilenumber_hint">شماره موبایل</string>
+    <string name="login_welcome_guide">به تاکسیجت خوش آمدید.اگر راننده تاکسیجت هستید\nیا تمایل دارید راننده تاکسیجت باشید\nشماره موبایل خود را وارد نمایید</string>
+    <string name="login_nextbutton_text">مرحله بعد</string>
+    <string name="smscode_title">تایید شماره موبایل</string>
+    <string name="smscode_description">یک کد تایید 5 رقمی به شماره %s ارسال شده است. لطفا جهت ورود،این کد را وارد نمایید</string>
+    <string name="checkcode_button_text">تایید</string>
+    <string name="smscode_change_mobile_number">تغییر شماره موبایل</string>
+    <string name="smscode_resend_smstoken">ارسال مجدد کد</string>
+</resources>

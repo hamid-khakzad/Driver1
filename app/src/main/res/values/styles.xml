@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="Textviewstyle" parent="android:Widget.TextView">
+        <item name="android:textColor">#ff00aa</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="TaxiJetDriverTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/Textviewstyle</item>
+     <!--   <item name="android:editTextStyle">@style/TextAppearance.AppCompat</item>-->
+
+    </style>
+
+
+    <style name="TextAppearance.AppCompat" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:background">#ffffff</item>
+
+    </style>
+
+    <style name="TextAppearance.AppCompat.Medium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+</resources>
